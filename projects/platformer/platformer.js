@@ -16,7 +16,7 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
     //create walls
-    createPlatform(-50, -50, canvas.width + 100, 50); //top
+    createPlatform(50, 70, canvas.width + 100, 50); //top
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
@@ -39,19 +39,19 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    createPlatform(400, 650, 300, 90);
-    createPlatform(900, 550, 300, 90);
-    createPlatform(400, 450, 300, 90);
+    createPlatform(150, 650, 300, 90);
+    createPlatform(1100, 250, 300, 90);
+    createPlatform(400, 550, 300, 90);
     createPlatform(900, 350, 300, 90);
-    createPlatform(400, 250, 300, 90);
+    createPlatform(600, 450, 300, 90);
     
     
 
 
     
     createCollectable("steve", 400, 150,);
-    createCollectable("grace", 900, 500,);
-    createCollectable("grace", 400, 600,);
+    createCollectable("grace", 600, 200,);
+    createCollectable("grace", 800, 300,);
    
 
 
@@ -59,8 +59,8 @@ $(function () {
 
 
 
-    createCannon("right", 400, 1000 );
-    createCannon("left", 400, 1000 );
+    createCannon("right", 250, 1000 );
+    createCannon("left", 300, 1000 );
     createCannon("left", 500, 1000 );
 
     
